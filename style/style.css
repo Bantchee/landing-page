@@ -2,7 +2,6 @@ body {
 	border: solid red;
 	height: 100vh;
 	margin: 0px;
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	font-family: Roboto;
@@ -86,4 +85,61 @@ body {
 .section-one .img p {
 	color: #f9faf8;
 	/* margin: auto 0px; */
+}
+
+.section-two {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 32px 0px;
+}
+
+.section-two .cards {
+	max-width: 700px;
+	display: flex;
+}
+
+.section-two .cards .box {
+	width: 150px;
+	height: 150px;
+	border: solid #3882f6;
+	border-radius: 16px;
+}
+
+.section-three {
+	background-color: #e5e7eb;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-three .box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-three .quote {
+	color: #1f2937;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 36px;
+	max-width: 800px;
+}
+
+.section-three .author {
+	color: #1f2937;
+	align-self: flex-end;
+	font-weight: 900;
+}
+
+.section-four {
+
+}
+
+.footer {
+	background-color: #1f2937;
 }
